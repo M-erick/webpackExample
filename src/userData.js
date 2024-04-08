@@ -1,6 +1,6 @@
-export function getUsername(){
+export function getUsernames(user){
     
-    return "Erick Muriithi";
+    return user;
 }
 
 export function getPassword() {
