@@ -4,7 +4,7 @@ module.exports = {
   // Entry point for your application
   entry: './src/index.js',
   devServer:{
-    contentBase: path.resolve(__dirname, 'dist'),
+    // contentBase: path.resolve(__dirname, 'dist'),
     hot:true,
     port:9000,
   },
