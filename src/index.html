@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- Using CDN link to add Foundation css -->
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css"
+        crossorigin="anonymous">
+
+    <!-- Compressed JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/js/foundation.min.js" crossorigin="anonymous">
+    </script>
+
+    <style>
+        /*importing images from google fonts*/
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+        @media (max-width: 600px) {
+            .profile-card {
+                flex-basis: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="menu">
+        <li><a href="#">Dev Eric<span>.</span></a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#projects">projects</a></li>
+
+        <li style="border-color: red;"><a href="#contact">Contact</a></li>
+        <!-- Add more links as needed -->
+    </ul>
+
+    <div class="card">
+        <div class="card-section">
+
+            <section style="background-color: rgb(246, 242, 242)">
+
+            <div class="card-container">
+
+                <div class="profile-card" style="height: 400px;margin: 0 !important; box-shadow: none !important; background-color: rgb(246, 242, 242) !important;">
+                    <div class="profile-info">
+                        <h2 style=" font-family: Oswald; font-size: 55px;"> Hy! I Am <br>
+                            Eric Muriithi</h2>
+                        <p style="font-size: medium;">An expert in computers who develops software is known as a
+                            software
+                            developer.
+                            The software that runs a wide range of technologies and devices we use on a daily basis is
+                            designed, built, tested, and maintained by them using their programming abilities.</p>
+
+                        <div class="">
+
+                            <a href="" class="button"
+                                style="background-color: white; color: black; border-color: black;">Hire</a>
+                            <a href="" class="button">Know More</a>
+                            <span
+                                style="align-items: center; margin-left: 90px; margin: 24; padding: 4px; font-weight: bold; font-family: Oswald; font-size:24px; ">200
+                                    Completed Projects</span>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                <img class="profile-picture" src="grad.jpeg" alt="developer image"
+                    style=" height: 500px;">
+            </div>
+        </section>
+
+            <!-- add github ,linkedlin and other social media links -->
+            <section id="contact" style="padding-top: 8px;">
+                <div class="profile-card">
+                    <div class="profile-info">
+                        <p>Location: Nairobi, Kenya</p>
+                        <p>Email: muriithierick3758@gmail.com</p>
+                        <p>Github : <a href="https://github.com/M-erick">https://github.com/M-erick</a></p>
+                        <p>Linkedin : <a href="https://www.linkedin.com/in/erick-muriithi-91a5521a4/">https://www.linkedin.com/in/erick-muriithi-91a5521a4/</a></p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="Skills">
+                <div class="card-container">
+                    <!-- Skill cards -->
+                    <div class="profile-card">
+                        <div class="profile-info">
+                            <h2 style="font-weight:bold">Web Developer</h2>
+                            <p class="text-center" style="font-weight:bold;">Skills</p>
+                            <p>Laravel, Django, Python, and JavaScript programming languages</p>
+                        </div>
+                    </div>
+                    <div class="profile-card" style="margin-left: 8px;">
+                        <div class="profile-info">
+                            <h2 style="font-weight:bold">UX/UI DESIGN</h2>
+                            <p class="text-center" style="font-weight:bold;">Skills</p>
+                            <ol class="no-bullet">
+
+                                <li>Figma</li>
+                                <li>Adobe Suite</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="profile-card" style="margin-left: 8px;">
+                        <div class="profile-info">
+                            <h2 style="font-weight:bold">Machine Learning</h2>
+                            <p class="text-center" style="font-weight:bold;">Skills</p>
+                            <ol class="no-bullet">
+                                <li>scikitlearn</li>
+                                <li>pytorch</li>
+                                <li>numpy library</li>
+                                <li>Pandas library</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section id="projects">
+                <div class="profile-card" style="margin-top: 10px !important;">
+                    <h2 class="text-center font-bold">Projects</h2>
+                    <div class="grid-container " style="border-radius: 15px;">
+                        <div class="grid-x grid-margin-x small-up-2 medium-up-3">
+                            <div class="cell">
+                                <div class="card">
+                                    <img src="ticketing.jpeg">
+                                    <div class="card-section">
+                                        <h4>Ticket Booking System.</h4>
+                                        <p>This row of cards is embedded in an X-Y Block Grid.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cell">
+                                <div class="card">
+                                    <img src="quran.png">
+                                    <div class="card-section">
+                                        <h4>MUMSA.</h4>
+                                        <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                           
+                            <div class="cell">
+                                <div class="card">
+                                    <img src="bid.png">
+                                    <div class="card-section">
+                                        <h4>ML</h4>
+                                        <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+
+            <!-- Embed a webpage with an iframe -->
+
+        </div>
+
+
+
+        <!-- <footer class="callout border-none">
+            <p>&copy; . <script>
+                    document.write(new Date().getFullYear());
+                </script> Dev Erick</p>
+        </footer> -->
+
+
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+
+</body>
+
+</html>
