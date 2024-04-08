@@ -1,10 +1,8 @@
-// Import a logging module
+// index.js
+import { getUsername, getPassword, authenticateUser } from './userData.js';
+import displayImage from './ticketing.jpeg';
 
-import './style.css';
-import './style.scss';
-import  display from './bid.png'
-
-
-
-
-console.log('The phrase  "Hello world" contains the following number of counts',);
+// Use the imported functions
+console.log("Username:",getUsername()); 
+console.log("Password:",getPassword()); 
+console.log("Note:",authenticateUser()); 
