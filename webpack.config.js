@@ -4,8 +4,23 @@ module.exports = {
   // Entry point for your application
   entry: './src/index.js',
   devServer:{
+    contentBase: path.resolve(__dirname, 'dist'),
     hot:true,
     port:9000,
+  },
+  module: {
+    rules: [
+        // rule loader for css
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+    //   image processing
+      {
+        test: /\.(png|jpe?g|gif|svg)$/, // Matches image extensions
+        use: 'file-loader', // Use file-loader for image processing
+      },
+    ],
   },
   plugins:[
     new webpack.HotModuleReplacementPlugin(),
